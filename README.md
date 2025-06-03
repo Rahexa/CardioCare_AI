@@ -4,7 +4,7 @@
 This repository contains a dataset and related code for analyzing heart disease data. The dataset includes various patient attributes and their corresponding heart disease diagnosis, aimed at facilitating research and predictive modeling for heart disease detection.
 
 ## Dataset Description
-The dataset is provided in CSV format (`heart_disease_data.csv`) and contains the following columns:
+The dataset is provided in CSV format (`heart.csv`) and contains the following columns:
 
 - **age**: Age of the patient (in years)
 - **sex**: Sex of the patient (1 = male, 0 = female)
@@ -44,7 +44,7 @@ Use a tool like Python's `pandas` library to load the CSV file:
 
 ```python
 import pandas as pd
-data = pd.read_csv('heart_disease_data.csv')
+data = pd.read_csv('heart.csv')
 ```
 
 ### Explore the Data
@@ -67,7 +67,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-data = pd.read_csv('heart_disease_data.csv')
+data = pd.read_csv('heart.csv')
 
 # Basic visualization
 data['age'].hist(bins=20)
